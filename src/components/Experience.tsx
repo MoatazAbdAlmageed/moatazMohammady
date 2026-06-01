@@ -1,5 +1,3 @@
-'use client';
-
 import { jobs } from '@/data/config';
 import dayjs from 'dayjs';
 
@@ -33,6 +31,7 @@ export default function Experience() {
                     <img
                       src={job.logo}
                       alt={job.company}
+                      loading="lazy"
                       className="w-5 h-5 object-contain rounded bg-white p-0.5"
                     />
                   ) : (

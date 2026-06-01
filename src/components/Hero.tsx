@@ -1,4 +1,4 @@
-'use client';
+import Image from 'next/image';
 
 export default function Hero() {
   const badges = [
@@ -19,11 +19,13 @@ export default function Hero() {
       <div className="relative w-48 h-48 mb-8 mt-16 group">
         <div className="absolute inset-0 -m-2 bg-gradient-to-r from-orange-400 to-pink-500 rounded-full blur-sm opacity-75 group-hover:opacity-100 transition animate-rotate-slow pointer-events-none" />
         <div className="absolute inset-0 -m-1.5 bg-gradient-to-r from-orange-400 to-pink-500 rounded-full animate-rotate-slow pointer-events-none" />
-        <img
+        <Image
           src="https://avatars.githubusercontent.com/u/17373050?v=4"
           alt="Moataz Mohammady"
+          width={192}
+          height={192}
+          priority
           className="relative w-full h-full rounded-full object-cover border-4 border-slate-950 shadow-2xl"
-          loading="eager"
         />
       </div>
 

@@ -1,5 +1,3 @@
-'use client';
-
 import { skills } from '@/data/config';
 
 export default function Skills() {

@@ -1,5 +1,3 @@
-'use client';
-
 import { socialLinks } from '@/data/config';
 
 export default function Footer() {

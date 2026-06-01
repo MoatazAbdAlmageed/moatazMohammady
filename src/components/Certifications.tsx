@@ -1,5 +1,3 @@
-'use client';
-
 import { certifications } from '@/data/config';
 
 export default function Certifications() {

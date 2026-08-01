@@ -397,6 +397,22 @@ export const projects: Project[] = [
 
 export const jobs: Job[] = [
   {
+    company: 'Izam, inc.',
+    logo: 'https://logo.clearbit.com/izam.co',
+    url: 'https://izam.co/',
+    technologies: ['Node.js', 'PHP', 'Laravel', 'MySQL', 'TypeScript'],
+    startDate: dayjs('2026-07-01'),
+    endDate: dayjs(),
+    present: true,
+    occupation: 'Senior Backend Developer',
+    responsibilities: [
+      'Building and maintaining robust and scalable backend systems.',
+      'Collaborating with the team to deliver high-quality software solutions.'
+    ],
+    description: '',
+    projects: [],
+  },
+  {
     company: 'QAED (Quality Leaders)',
     logo: 'https://theqaed.com/wp-content/uploads/2025/08/theqaed-logo-e1675012115961-1024x761-1.png',
     url: 'https://theqaed.com/',
